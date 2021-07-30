@@ -1,0 +1,320 @@
+[06/10 09:53:06] fastreid.utils.checkpoint INFO: No checkpoint found. Training model from scratch
+[06/10 09:53:06] fastreid.engine.train_loop INFO: Starting training from iteration 0
+[06/10 09:55:54] fastreid.utils.events INFO: eta: 10:29:27  iter: 199  total_loss: 91.596  loss_greedy: 0.081  loss_cls: 16.828  loss_distill: 37.555  loss_distill_2: 13.622  loss_crd: 6.001  loss_sim: 2.980  loss_mse: 0.235  loss_triplet: 13.801  time: 0.8226  data_time: 0.0020  lr: 3.02e-05  max_mem: 17180M
+[06/10 09:58:41] fastreid.utils.events INFO: eta: 10:36:35  iter: 399  total_loss: 80.621  loss_greedy: 0.080  loss_cls: 15.842  loss_distill: 33.897  loss_distill_2: 12.803  loss_crd: 5.159  loss_sim: 2.446  loss_mse: 0.215  loss_triplet: 10.394  time: 0.8284  data_time: 0.0034  lr: 5.71e-05  max_mem: 17180M
+[06/10 10:01:31] fastreid.utils.events INFO: eta: 10:40:48  iter: 599  total_loss: 69.275  loss_greedy: 0.076  loss_cls: 13.834  loss_distill: 29.319  loss_distill_2: 11.059  loss_crd: 4.126  loss_sim: 2.124  loss_mse: 0.192  loss_triplet: 9.164  time: 0.8348  data_time: 0.0065  lr: 8.39e-05  max_mem: 17180M
+[06/10 10:04:19] fastreid.utils.events INFO: eta: 10:40:16  iter: 799  total_loss: 57.425  loss_greedy: 0.066  loss_cls: 10.853  loss_distill: 26.208  loss_distill_2: 8.287  loss_crd: 3.143  loss_sim: 1.829  loss_mse: 0.176  loss_triplet: 6.965  time: 0.8364  data_time: 0.0032  lr: 1.11e-04  max_mem: 17180M
+[06/10 10:07:06] fastreid.utils.events INFO: eta: 10:36:48  iter: 999  total_loss: 48.205  loss_greedy: 0.056  loss_cls: 8.320  loss_distill: 24.327  loss_distill_2: 5.838  loss_crd: 2.413  loss_sim: 1.643  loss_mse: 0.170  loss_triplet: 5.483  time: 0.8364  data_time: 0.0082  lr: 1.38e-04  max_mem: 17180M
+[06/10 10:09:53] fastreid.utils.events INFO: eta: 10:35:15  iter: 1199  total_loss: 41.594  loss_greedy: 0.048  loss_cls: 6.639  loss_distill: 23.206  loss_distill_2: 4.069  loss_crd: 2.112  loss_sim: 1.500  loss_mse: 0.166  loss_triplet: 4.025  time: 0.8361  data_time: 0.0022  lr: 1.65e-04  max_mem: 17180M
+[06/10 10:12:44] fastreid.utils.events INFO: eta: 10:37:33  iter: 1399  total_loss: 37.935  loss_greedy: 0.048  loss_cls: 5.791  loss_distill: 22.540  loss_distill_2: 3.188  loss_crd: 1.668  loss_sim: 1.443  loss_mse: 0.164  loss_triplet: 3.674  time: 0.8380  data_time: 0.0028  lr: 1.91e-04  max_mem: 17180M
+[06/10 10:15:32] fastreid.utils.events INFO: eta: 10:34:08  iter: 1599  total_loss: 37.116  loss_greedy: 0.046  loss_cls: 5.374  loss_distill: 22.220  loss_distill_2: 2.737  loss_crd: 1.443  loss_sim: 1.388  loss_mse: 0.163  loss_triplet: 3.783  time: 0.8385  data_time: 0.0030  lr: 2.18e-04  max_mem: 17180M
+[06/10 10:18:20] fastreid.utils.events INFO: eta: 10:29:38  iter: 1799  total_loss: 31.420  loss_greedy: 0.041  loss_cls: 4.270  loss_distill: 20.177  loss_distill_2: 1.364  loss_crd: 1.179  loss_sim: 1.240  loss_mse: 0.151  loss_triplet: 2.768  time: 0.8386  data_time: 0.0022  lr: 2.45e-04  max_mem: 17180M
+[06/10 10:21:10] fastreid.utils.events INFO: eta: 10:27:56  iter: 1999  total_loss: 31.931  loss_greedy: 0.042  loss_cls: 4.497  loss_distill: 20.460  loss_distill_2: 1.571  loss_crd: 1.046  loss_sim: 1.244  loss_mse: 0.153  loss_triplet: 3.123  time: 0.8395  data_time: 0.0023  lr: 2.72e-04  max_mem: 17180M
+[06/10 10:24:01] fastreid.utils.events INFO: eta: 10:29:28  iter: 2199  total_loss: 31.013  loss_greedy: 0.040  loss_cls: 4.473  loss_distill: 20.292  loss_distill_2: 1.489  loss_crd: 0.933  loss_sim: 1.206  loss_mse: 0.153  loss_triplet: 2.765  time: 0.8410  data_time: 0.0019  lr: 2.99e-04  max_mem: 17180M
+[06/10 10:26:51] fastreid.utils.events INFO: eta: 10:25:46  iter: 2399  total_loss: 28.856  loss_greedy: 0.040  loss_cls: 4.295  loss_distill: 19.600  loss_distill_2: 1.333  loss_crd: 0.882  loss_sim: 1.109  loss_mse: 0.149  loss_triplet: 1.830  time: 0.8416  data_time: 0.0019  lr: 3.26e-04  max_mem: 17180M
+[06/10 10:29:40] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 10:29:41] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 10:29:41] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 10:29:47] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1093 s / batch. ETA=0:00:52
+[06/10 10:30:17] fastreid.evaluation.evaluator INFO: Inference done 80/156. 0.1288 s / batch. ETA=0:00:32
+[06/10 10:30:48] fastreid.evaluation.evaluator INFO: Inference done 141/156. 0.1296 s / batch. ETA=0:00:06
+[06/10 10:30:55] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:10.675783 (0.468052 s / batch per device)
+[06/10 10:30:55] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:21 (0.139316 s / batch per device)
+[06/10 10:31:02] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 77.87%   | 89.09%   | 92.46%    | 62.16% | 22.07% |[0m
+[06/10 10:31:02] fastreid.utils.events INFO: eta: 10:22:15  iter: 2599  total_loss: 28.303  loss_greedy: 0.041  loss_cls: 4.218  loss_distill: 19.221  loss_distill_2: 1.122  loss_crd: 0.838  loss_sim: 1.052  loss_mse: 0.146  loss_triplet: 2.046  time: 0.8421  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:33:55] fastreid.utils.events INFO: eta: 10:21:25  iter: 2799  total_loss: 27.474  loss_greedy: 0.041  loss_cls: 4.198  loss_distill: 18.887  loss_distill_2: 1.146  loss_crd: 0.767  loss_sim: 1.021  loss_mse: 0.144  loss_triplet: 1.555  time: 0.8436  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:36:45] fastreid.utils.events INFO: eta: 10:17:21  iter: 2999  total_loss: 26.769  loss_greedy: 0.040  loss_cls: 4.172  loss_distill: 18.368  loss_distill_2: 1.108  loss_crd: 0.723  loss_sim: 0.960  loss_mse: 0.141  loss_triplet: 1.330  time: 0.8439  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:39:32] fastreid.utils.events INFO: eta: 10:12:58  iter: 3199  total_loss: 25.998  loss_greedy: 0.040  loss_cls: 3.916  loss_distill: 18.102  loss_distill_2: 0.845  loss_crd: 0.700  loss_sim: 0.932  loss_mse: 0.139  loss_triplet: 1.012  time: 0.8435  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:42:23] fastreid.utils.events INFO: eta: 10:10:10  iter: 3399  total_loss: 25.946  loss_greedy: 0.040  loss_cls: 3.900  loss_distill: 18.052  loss_distill_2: 0.837  loss_crd: 0.714  loss_sim: 0.902  loss_mse: 0.138  loss_triplet: 1.531  time: 0.8441  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:45:10] fastreid.utils.events INFO: eta: 10:06:25  iter: 3599  total_loss: 23.780  loss_greedy: 0.038  loss_cls: 3.878  loss_distill: 16.788  loss_distill_2: 0.646  loss_crd: 0.649  loss_sim: 0.844  loss_mse: 0.130  loss_triplet: 0.920  time: 0.8437  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:48:01] fastreid.utils.events INFO: eta: 10:03:22  iter: 3799  total_loss: 24.351  loss_greedy: 0.039  loss_cls: 3.922  loss_distill: 16.875  loss_distill_2: 0.792  loss_crd: 0.638  loss_sim: 0.874  loss_mse: 0.130  loss_triplet: 1.091  time: 0.8441  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:50:49] fastreid.utils.events INFO: eta: 9:59:35  iter: 3999  total_loss: 23.607  loss_greedy: 0.040  loss_cls: 3.887  loss_distill: 16.766  loss_distill_2: 0.752  loss_crd: 0.576  loss_sim: 0.816  loss_mse: 0.129  loss_triplet: 0.856  time: 0.8439  data_time: 0.0021  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:53:38] fastreid.utils.events INFO: eta: 9:57:38  iter: 4199  total_loss: 23.828  loss_greedy: 0.041  loss_cls: 3.839  loss_distill: 16.677  loss_distill_2: 0.704  loss_crd: 0.599  loss_sim: 0.796  loss_mse: 0.129  loss_triplet: 1.063  time: 0.8440  data_time: 0.0021  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:56:26] fastreid.utils.events INFO: eta: 9:54:08  iter: 4399  total_loss: 23.991  loss_greedy: 0.041  loss_cls: 3.756  loss_distill: 16.647  loss_distill_2: 0.680  loss_crd: 0.573  loss_sim: 0.810  loss_mse: 0.128  loss_triplet: 1.008  time: 0.8438  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 10:59:16] fastreid.utils.events INFO: eta: 9:52:11  iter: 4599  total_loss: 23.444  loss_greedy: 0.040  loss_cls: 3.885  loss_distill: 16.582  loss_distill_2: 0.750  loss_crd: 0.560  loss_sim: 0.793  loss_mse: 0.128  loss_triplet: 0.663  time: 0.8439  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:02:05] fastreid.utils.events INFO: eta: 9:49:08  iter: 4799  total_loss: 22.391  loss_greedy: 0.039  loss_cls: 3.703  loss_distill: 16.165  loss_distill_2: 0.585  loss_crd: 0.530  loss_sim: 0.782  loss_mse: 0.125  loss_triplet: 0.454  time: 0.8440  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:04:55] fastreid.utils.events INFO: eta: 9:46:38  iter: 4999  total_loss: 22.500  loss_greedy: 0.042  loss_cls: 3.681  loss_distill: 16.244  loss_distill_2: 0.582  loss_crd: 0.552  loss_sim: 0.773  loss_mse: 0.125  loss_triplet: 0.589  time: 0.8441  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:07:46] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 11:07:47] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 11:07:47] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 11:07:52] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1096 s / batch. ETA=0:00:52
+[06/10 11:08:22] fastreid.evaluation.evaluator INFO: Inference done 75/156. 0.1294 s / batch. ETA=0:00:37
+[06/10 11:08:52] fastreid.evaluation.evaluator INFO: Inference done 140/156. 0.1303 s / batch. ETA=0:00:07
+[06/10 11:09:00] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:10.754467 (0.468573 s / batch per device)
+[06/10 11:09:00] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.130725 s / batch per device)
+[06/10 11:09:07] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 83.44%   | 92.64%   | 94.52%    | 70.19% | 31.32% |[0m
+[06/10 11:09:07] fastreid.utils.events INFO: eta: 9:44:47  iter: 5199  total_loss: 21.893  loss_greedy: 0.040  loss_cls: 3.744  loss_distill: 15.426  loss_distill_2: 0.573  loss_crd: 0.540  loss_sim: 0.791  loss_mse: 0.120  loss_triplet: 0.746  time: 0.8447  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:11:56] fastreid.utils.events INFO: eta: 9:41:57  iter: 5399  total_loss: 21.854  loss_greedy: 0.040  loss_cls: 3.627  loss_distill: 15.592  loss_distill_2: 0.491  loss_crd: 0.537  loss_sim: 0.798  loss_mse: 0.121  loss_triplet: 0.609  time: 0.8446  data_time: 0.0021  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:14:50] fastreid.utils.events INFO: eta: 9:41:53  iter: 5599  total_loss: 21.570  loss_greedy: 0.040  loss_cls: 3.707  loss_distill: 15.336  loss_distill_2: 0.544  loss_crd: 0.496  loss_sim: 0.729  loss_mse: 0.119  loss_triplet: 0.426  time: 0.8455  data_time: 0.0021  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:17:41] fastreid.utils.events INFO: eta: 9:38:55  iter: 5799  total_loss: 21.803  loss_greedy: 0.041  loss_cls: 3.670  loss_distill: 15.620  loss_distill_2: 0.578  loss_crd: 0.521  loss_sim: 0.762  loss_mse: 0.121  loss_triplet: 0.535  time: 0.8458  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:20:31] fastreid.utils.events INFO: eta: 9:36:23  iter: 5999  total_loss: 22.276  loss_greedy: 0.041  loss_cls: 3.697  loss_distill: 15.652  loss_distill_2: 0.652  loss_crd: 0.503  loss_sim: 0.761  loss_mse: 0.120  loss_triplet: 0.548  time: 0.8459  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:23:20] fastreid.utils.events INFO: eta: 9:32:14  iter: 6199  total_loss: 21.911  loss_greedy: 0.043  loss_cls: 3.757  loss_distill: 15.452  loss_distill_2: 0.657  loss_crd: 0.495  loss_sim: 0.748  loss_mse: 0.119  loss_triplet: 0.789  time: 0.8459  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:26:03] fastreid.utils.events INFO: eta: 9:27:37  iter: 6399  total_loss: 22.059  loss_greedy: 0.044  loss_cls: 3.709  loss_distill: 15.496  loss_distill_2: 0.632  loss_crd: 0.488  loss_sim: 0.767  loss_mse: 0.119  loss_triplet: 0.685  time: 0.8450  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:28:52] fastreid.utils.events INFO: eta: 9:23:04  iter: 6599  total_loss: 20.998  loss_greedy: 0.044  loss_cls: 3.592  loss_distill: 15.097  loss_distill_2: 0.543  loss_crd: 0.462  loss_sim: 0.711  loss_mse: 0.116  loss_triplet: 0.323  time: 0.8450  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:31:44] fastreid.utils.events INFO: eta: 9:20:01  iter: 6799  total_loss: 21.178  loss_greedy: 0.045  loss_cls: 3.588  loss_distill: 15.039  loss_distill_2: 0.554  loss_crd: 0.454  loss_sim: 0.753  loss_mse: 0.115  loss_triplet: 0.585  time: 0.8453  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:34:35] fastreid.utils.events INFO: eta: 9:17:12  iter: 6999  total_loss: 20.019  loss_greedy: 0.043  loss_cls: 3.549  loss_distill: 14.174  loss_distill_2: 0.452  loss_crd: 0.482  loss_sim: 0.747  loss_mse: 0.109  loss_triplet: 0.522  time: 0.8456  data_time: 0.0023  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:37:23] fastreid.utils.events INFO: eta: 9:14:23  iter: 7199  total_loss: 20.371  loss_greedy: 0.044  loss_cls: 3.543  loss_distill: 14.621  loss_distill_2: 0.464  loss_crd: 0.439  loss_sim: 0.720  loss_mse: 0.112  loss_triplet: 0.417  time: 0.8455  data_time: 0.0020  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:40:13] fastreid.utils.events INFO: eta: 9:13:46  iter: 7399  total_loss: 20.664  loss_greedy: 0.046  loss_cls: 3.596  loss_distill: 14.744  loss_distill_2: 0.505  loss_crd: 0.442  loss_sim: 0.764  loss_mse: 0.113  loss_triplet: 0.396  time: 0.8456  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:43:03] fastreid.utils.events INFO: eta: 9:10:54  iter: 7599  total_loss: 20.367  loss_greedy: 0.046  loss_cls: 3.606  loss_distill: 14.663  loss_distill_2: 0.554  loss_crd: 0.417  loss_sim: 0.695  loss_mse: 0.112  loss_triplet: 0.385  time: 0.8456  data_time: 0.0017  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:45:53] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 11:45:53] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 11:45:53] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 11:45:58] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1091 s / batch. ETA=0:00:51
+[06/10 11:46:28] fastreid.evaluation.evaluator INFO: Inference done 76/156. 0.1294 s / batch. ETA=0:00:36
+[06/10 11:46:58] fastreid.evaluation.evaluator INFO: Inference done 138/156. 0.1301 s / batch. ETA=0:00:08
+[06/10 11:47:07] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:11.736625 (0.475077 s / batch per device)
+[06/10 11:47:07] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.130474 s / batch per device)
+[06/10 11:47:14] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 84.78%   | 92.73%   | 94.61%    | 71.60% | 33.81% |[0m
+[06/10 11:47:14] fastreid.utils.events INFO: eta: 9:08:00  iter: 7799  total_loss: 20.978  loss_greedy: 0.047  loss_cls: 3.575  loss_distill: 14.863  loss_distill_2: 0.596  loss_crd: 0.447  loss_sim: 0.728  loss_mse: 0.113  loss_triplet: 0.428  time: 0.8457  data_time: 0.0023  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:50:04] fastreid.utils.events INFO: eta: 9:04:52  iter: 7999  total_loss: 20.653  loss_greedy: 0.047  loss_cls: 3.595  loss_distill: 14.697  loss_distill_2: 0.547  loss_crd: 0.427  loss_sim: 0.725  loss_mse: 0.112  loss_triplet: 0.390  time: 0.8458  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:52:56] fastreid.utils.events INFO: eta: 9:02:33  iter: 8199  total_loss: 20.456  loss_greedy: 0.048  loss_cls: 3.609  loss_distill: 14.575  loss_distill_2: 0.597  loss_crd: 0.405  loss_sim: 0.700  loss_mse: 0.110  loss_triplet: 0.448  time: 0.8461  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:55:45] fastreid.utils.events INFO: eta: 8:59:14  iter: 8399  total_loss: 20.739  loss_greedy: 0.049  loss_cls: 3.625  loss_distill: 14.629  loss_distill_2: 0.582  loss_crd: 0.432  loss_sim: 0.722  loss_mse: 0.110  loss_triplet: 0.416  time: 0.8461  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 11:58:36] fastreid.utils.events INFO: eta: 8:56:31  iter: 8599  total_loss: 20.882  loss_greedy: 0.050  loss_cls: 3.640  loss_distill: 14.770  loss_distill_2: 0.632  loss_crd: 0.444  loss_sim: 0.707  loss_mse: 0.111  loss_triplet: 0.296  time: 0.8463  data_time: 0.0023  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:01:24] fastreid.utils.events INFO: eta: 8:53:15  iter: 8799  total_loss: 19.388  loss_greedy: 0.048  loss_cls: 3.519  loss_distill: 13.789  loss_distill_2: 0.483  loss_crd: 0.424  loss_sim: 0.727  loss_mse: 0.105  loss_triplet: 0.243  time: 0.8461  data_time: 0.0020  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:04:12] fastreid.utils.events INFO: eta: 8:49:55  iter: 8999  total_loss: 20.202  loss_greedy: 0.049  loss_cls: 3.575  loss_distill: 14.249  loss_distill_2: 0.499  loss_crd: 0.399  loss_sim: 0.691  loss_mse: 0.108  loss_triplet: 0.239  time: 0.8460  data_time: 0.0019  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:07:01] fastreid.utils.events INFO: eta: 8:46:20  iter: 9199  total_loss: 19.625  loss_greedy: 0.050  loss_cls: 3.447  loss_distill: 14.049  loss_distill_2: 0.399  loss_crd: 0.410  loss_sim: 0.685  loss_mse: 0.107  loss_triplet: 0.170  time: 0.8460  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:09:52] fastreid.utils.events INFO: eta: 8:44:01  iter: 9399  total_loss: 20.036  loss_greedy: 0.051  loss_cls: 3.638  loss_distill: 14.223  loss_distill_2: 0.574  loss_crd: 0.393  loss_sim: 0.723  loss_mse: 0.107  loss_triplet: 0.372  time: 0.8462  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:12:40] fastreid.utils.events INFO: eta: 8:40:45  iter: 9599  total_loss: 20.011  loss_greedy: 0.050  loss_cls: 3.557  loss_distill: 14.142  loss_distill_2: 0.610  loss_crd: 0.388  loss_sim: 0.678  loss_mse: 0.107  loss_triplet: 0.284  time: 0.8460  data_time: 0.0018  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:15:32] fastreid.utils.events INFO: eta: 8:38:35  iter: 9799  total_loss: 19.925  loss_greedy: 0.051  loss_cls: 3.517  loss_distill: 14.205  loss_distill_2: 0.540  loss_crd: 0.389  loss_sim: 0.692  loss_mse: 0.107  loss_triplet: 0.236  time: 0.8462  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:18:23] fastreid.utils.events INFO: eta: 8:36:28  iter: 9999  total_loss: 20.072  loss_greedy: 0.051  loss_cls: 3.619  loss_distill: 14.238  loss_distill_2: 0.610  loss_crd: 0.391  loss_sim: 0.736  loss_mse: 0.107  loss_triplet: 0.469  time: 0.8465  data_time: 0.0022  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:21:14] fastreid.utils.events INFO: eta: 8:33:59  iter: 10199  total_loss: 19.967  loss_greedy: 0.052  loss_cls: 3.564  loss_distill: 14.144  loss_distill_2: 0.526  loss_crd: 0.390  loss_sim: 0.680  loss_mse: 0.106  loss_triplet: 0.350  time: 0.8466  data_time: 0.0024  lr: 3.50e-04  max_mem: 17180M
+[06/10 12:24:06] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 12:24:06] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 12:24:06] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 12:24:11] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1090 s / batch. ETA=0:00:51
+[06/10 12:24:41] fastreid.evaluation.evaluator INFO: Inference done 80/156. 0.1298 s / batch. ETA=0:00:32
+[06/10 12:25:11] fastreid.evaluation.evaluator INFO: Inference done 148/156. 0.1298 s / batch. ETA=0:00:03
+[06/10 12:25:15] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:06.150535 (0.438083 s / batch per device)
+[06/10 12:25:15] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.130146 s / batch per device)
+[06/10 12:25:22] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 88.29%   | 94.34%   | 96.14%    | 75.81% | 39.24% |[0m
+[06/10 12:25:22] fastreid.utils.events INFO: eta: 8:30:53  iter: 10399  total_loss: 18.308  loss_greedy: 0.051  loss_cls: 3.389  loss_distill: 13.336  loss_distill_2: 0.369  loss_crd: 0.350  loss_sim: 0.654  loss_mse: 0.101  loss_triplet: 0.205  time: 0.8468  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:28:14] fastreid.utils.events INFO: eta: 8:28:20  iter: 10599  total_loss: 17.503  loss_greedy: 0.052  loss_cls: 3.287  loss_distill: 12.644  loss_distill_2: 0.307  loss_crd: 0.309  loss_sim: 0.660  loss_mse: 0.096  loss_triplet: 0.097  time: 0.8471  data_time: 0.0030  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:31:05] fastreid.utils.events INFO: eta: 8:25:16  iter: 10799  total_loss: 17.463  loss_greedy: 0.052  loss_cls: 3.287  loss_distill: 12.580  loss_distill_2: 0.287  loss_crd: 0.294  loss_sim: 0.643  loss_mse: 0.095  loss_triplet: 0.058  time: 0.8472  data_time: 0.0017  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:33:57] fastreid.utils.events INFO: eta: 8:22:22  iter: 10999  total_loss: 17.602  loss_greedy: 0.054  loss_cls: 3.319  loss_distill: 12.683  loss_distill_2: 0.305  loss_crd: 0.291  loss_sim: 0.652  loss_mse: 0.096  loss_triplet: 0.133  time: 0.8474  data_time: 0.0022  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:36:49] fastreid.utils.events INFO: eta: 8:19:34  iter: 11199  total_loss: 17.462  loss_greedy: 0.055  loss_cls: 3.275  loss_distill: 12.550  loss_distill_2: 0.310  loss_crd: 0.297  loss_sim: 0.640  loss_mse: 0.094  loss_triplet: 0.155  time: 0.8476  data_time: 0.0025  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:39:40] fastreid.utils.events INFO: eta: 8:16:47  iter: 11399  total_loss: 17.328  loss_greedy: 0.055  loss_cls: 3.299  loss_distill: 12.437  loss_distill_2: 0.316  loss_crd: 0.276  loss_sim: 0.605  loss_mse: 0.094  loss_triplet: 0.181  time: 0.8477  data_time: 0.0024  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:42:31] fastreid.utils.events INFO: eta: 8:13:28  iter: 11599  total_loss: 17.032  loss_greedy: 0.056  loss_cls: 3.251  loss_distill: 12.408  loss_distill_2: 0.319  loss_crd: 0.281  loss_sim: 0.620  loss_mse: 0.093  loss_triplet: 0.100  time: 0.8479  data_time: 0.0018  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:45:23] fastreid.utils.events INFO: eta: 8:10:41  iter: 11799  total_loss: 17.068  loss_greedy: 0.058  loss_cls: 3.215  loss_distill: 12.447  loss_distill_2: 0.264  loss_crd: 0.278  loss_sim: 0.631  loss_mse: 0.093  loss_triplet: 0.121  time: 0.8480  data_time: 0.0021  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:48:15] fastreid.utils.events INFO: eta: 8:08:11  iter: 11999  total_loss: 17.154  loss_greedy: 0.057  loss_cls: 3.252  loss_distill: 12.290  loss_distill_2: 0.346  loss_crd: 0.284  loss_sim: 0.612  loss_mse: 0.092  loss_triplet: 0.203  time: 0.8482  data_time: 0.0017  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:51:07] fastreid.utils.events INFO: eta: 8:05:27  iter: 12199  total_loss: 16.208  loss_greedy: 0.055  loss_cls: 3.056  loss_distill: 11.674  loss_distill_2: 0.254  loss_crd: 0.281  loss_sim: 0.618  loss_mse: 0.088  loss_triplet: 0.037  time: 0.8484  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:56:51] fastreid.utils.events INFO: eta: 8:00:24  iter: 12599  total_loss: 16.409  loss_greedy: 0.058  loss_cls: 3.090  loss_distill: 12.052  loss_distill_2: 0.257  loss_crd: 0.254  loss_sim: 0.612  loss_mse: 0.090  loss_triplet: 0.020  time: 0.8488  data_time: 0.0020  lr: 3.50e-05  max_mem: 17180M
+[06/10 12:59:42] fastreid.utils.events INFO: eta: 7:57:44  iter: 12799  total_loss: 16.674  loss_greedy: 0.059  loss_cls: 3.148  loss_distill: 12.079  loss_distill_2: 0.307  loss_crd: 0.263  loss_sim: 0.615  loss_mse: 0.091  loss_triplet: 0.035  time: 0.8489  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:02:34] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 13:02:34] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 13:02:34] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 13:02:39] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1083 s / batch. ETA=0:00:50
+[06/10 13:03:09] fastreid.evaluation.evaluator INFO: Inference done 78/156. 0.1284 s / batch. ETA=0:00:34
+[06/10 13:03:39] fastreid.evaluation.evaluator INFO: Inference done 146/156. 0.1292 s / batch. ETA=0:00:04
+[06/10 13:03:43] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:06.613719 (0.441150 s / batch per device)
+[06/10 13:03:43] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.129639 s / batch per device)
+[06/10 13:03:49] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 88.55%   | 94.97%   | 96.50%    | 78.34% | 43.73% |[0m
+[06/10 13:03:49] fastreid.utils.events INFO: eta: 7:54:33  iter: 12999  total_loss: 16.439  loss_greedy: 0.058  loss_cls: 3.153  loss_distill: 11.892  loss_distill_2: 0.334  loss_crd: 0.264  loss_sim: 0.566  loss_mse: 0.089  loss_triplet: 0.037  time: 0.8490  data_time: 0.0018  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:06:41] fastreid.utils.events INFO: eta: 7:51:47  iter: 13199  total_loss: 16.918  loss_greedy: 0.058  loss_cls: 3.128  loss_distill: 12.233  loss_distill_2: 0.279  loss_crd: 0.261  loss_sim: 0.641  loss_mse: 0.092  loss_triplet: 0.054  time: 0.8492  data_time: 0.0022  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:09:32] fastreid.utils.events INFO: eta: 7:48:59  iter: 13399  total_loss: 16.797  loss_greedy: 0.058  loss_cls: 3.147  loss_distill: 11.971  loss_distill_2: 0.307  loss_crd: 0.269  loss_sim: 0.610  loss_mse: 0.090  loss_triplet: 0.054  time: 0.8493  data_time: 0.0016  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:12:24] fastreid.utils.events INFO: eta: 7:45:52  iter: 13599  total_loss: 16.565  loss_greedy: 0.059  loss_cls: 3.129  loss_distill: 12.054  loss_distill_2: 0.311  loss_crd: 0.248  loss_sim: 0.612  loss_mse: 0.090  loss_triplet: 0.067  time: 0.8494  data_time: 0.0021  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:15:15] fastreid.utils.events INFO: eta: 7:42:30  iter: 13799  total_loss: 17.221  loss_greedy: 0.059  loss_cls: 3.254  loss_distill: 12.343  loss_distill_2: 0.433  loss_crd: 0.276  loss_sim: 0.651  loss_mse: 0.092  loss_triplet: 0.118  time: 0.8494  data_time: 0.0015  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:18:06] fastreid.utils.events INFO: eta: 7:39:28  iter: 13999  total_loss: 16.362  loss_greedy: 0.058  loss_cls: 3.070  loss_distill: 11.713  loss_distill_2: 0.283  loss_crd: 0.264  loss_sim: 0.623  loss_mse: 0.088  loss_triplet: 0.089  time: 0.8495  data_time: 0.0022  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:20:58] fastreid.utils.events INFO: eta: 7:36:48  iter: 14199  total_loss: 16.099  loss_greedy: 0.058  loss_cls: 3.077  loss_distill: 11.771  loss_distill_2: 0.286  loss_crd: 0.245  loss_sim: 0.585  loss_mse: 0.089  loss_triplet: 0.037  time: 0.8497  data_time: 0.0013  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:23:49] fastreid.utils.events INFO: eta: 7:33:34  iter: 14399  total_loss: 16.510  loss_greedy: 0.060  loss_cls: 3.148  loss_distill: 11.806  loss_distill_2: 0.341  loss_crd: 0.253  loss_sim: 0.613  loss_mse: 0.089  loss_triplet: 0.112  time: 0.8497  data_time: 0.0021  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:26:40] fastreid.utils.events INFO: eta: 7:30:34  iter: 14599  total_loss: 16.597  loss_greedy: 0.060  loss_cls: 3.146  loss_distill: 11.960  loss_distill_2: 0.320  loss_crd: 0.248  loss_sim: 0.632  loss_mse: 0.090  loss_triplet: 0.078  time: 0.8498  data_time: 0.0017  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:29:33] fastreid.utils.events INFO: eta: 7:28:31  iter: 14799  total_loss: 16.431  loss_greedy: 0.059  loss_cls: 3.127  loss_distill: 11.847  loss_distill_2: 0.323  loss_crd: 0.266  loss_sim: 0.621  loss_mse: 0.089  loss_triplet: 0.049  time: 0.8500  data_time: 0.0022  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:32:25] fastreid.utils.events INFO: eta: 7:26:32  iter: 14999  total_loss: 16.709  loss_greedy: 0.059  loss_cls: 3.192  loss_distill: 11.869  loss_distill_2: 0.376  loss_crd: 0.252  loss_sim: 0.614  loss_mse: 0.089  loss_triplet: 0.156  time: 0.8501  data_time: 0.0013  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:35:16] fastreid.utils.events INFO: eta: 7:23:14  iter: 15199  total_loss: 16.704  loss_greedy: 0.060  loss_cls: 3.142  loss_distill: 12.062  loss_distill_2: 0.316  loss_crd: 0.246  loss_sim: 0.626  loss_mse: 0.090  loss_triplet: 0.126  time: 0.8502  data_time: 0.0024  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:38:09] fastreid.utils.events INFO: eta: 7:21:21  iter: 15399  total_loss: 16.388  loss_greedy: 0.060  loss_cls: 3.138  loss_distill: 11.803  loss_distill_2: 0.342  loss_crd: 0.250  loss_sim: 0.589  loss_mse: 0.089  loss_triplet: 0.116  time: 0.8504  data_time: 0.0017  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:41:01] fastreid.utils.checkpoint INFO: Saving checkpoint to logs/dukemtmc/salient/model_0015599.pth
+[06/10 13:41:03] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 13:41:03] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 13:41:03] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 13:41:08] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1086 s / batch. ETA=0:00:52
+[06/10 13:41:38] fastreid.evaluation.evaluator INFO: Inference done 71/156. 0.1283 s / batch. ETA=0:00:41
+[06/10 13:42:08] fastreid.evaluation.evaluator INFO: Inference done 132/156. 0.1294 s / batch. ETA=0:00:11
+[06/10 13:42:21] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:14.823116 (0.495517 s / batch per device)
+[06/10 13:42:21] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.129926 s / batch per device)
+[06/10 13:42:27] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.09%   | 94.79%   | 96.59%    | 78.32% | 43.85% |[0m
+[06/10 13:42:27] fastreid.utils.events INFO: eta: 7:19:09  iter: 15599  total_loss: 16.314  loss_greedy: 0.059  loss_cls: 3.059  loss_distill: 11.799  loss_distill_2: 0.277  loss_crd: 0.254  loss_sim: 0.620  loss_mse: 0.088  loss_triplet: 0.075  time: 0.8505  data_time: 0.0026  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:45:18] fastreid.utils.events INFO: eta: 7:15:51  iter: 15799  total_loss: 16.069  loss_greedy: 0.058  loss_cls: 3.001  loss_distill: 11.697  loss_distill_2: 0.254  loss_crd: 0.253  loss_sim: 0.623  loss_mse: 0.088  loss_triplet: 0.038  time: 0.8506  data_time: 0.0016  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:48:09] fastreid.utils.events INFO: eta: 7:12:11  iter: 15999  total_loss: 16.251  loss_greedy: 0.060  loss_cls: 3.120  loss_distill: 11.708  loss_distill_2: 0.354  loss_crd: 0.249  loss_sim: 0.603  loss_mse: 0.088  loss_triplet: 0.152  time: 0.8506  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:51:01] fastreid.utils.events INFO: eta: 7:09:27  iter: 16199  total_loss: 16.208  loss_greedy: 0.060  loss_cls: 3.074  loss_distill: 11.741  loss_distill_2: 0.304  loss_crd: 0.245  loss_sim: 0.612  loss_mse: 0.088  loss_triplet: 0.096  time: 0.8507  data_time: 0.0018  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:53:53] fastreid.utils.events INFO: eta: 7:06:36  iter: 16399  total_loss: 16.653  loss_greedy: 0.060  loss_cls: 3.111  loss_distill: 11.846  loss_distill_2: 0.321  loss_crd: 0.243  loss_sim: 0.608  loss_mse: 0.089  loss_triplet: 0.091  time: 0.8508  data_time: 0.0018  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:56:45] fastreid.utils.events INFO: eta: 7:03:11  iter: 16599  total_loss: 16.489  loss_greedy: 0.059  loss_cls: 3.113  loss_distill: 11.909  loss_distill_2: 0.315  loss_crd: 0.252  loss_sim: 0.633  loss_mse: 0.089  loss_triplet: 0.089  time: 0.8510  data_time: 0.0014  lr: 3.50e-05  max_mem: 17180M
+[06/10 13:59:37] fastreid.utils.events INFO: eta: 7:00:13  iter: 16799  total_loss: 16.644  loss_greedy: 0.059  loss_cls: 3.138  loss_distill: 11.912  loss_distill_2: 0.348  loss_crd: 0.254  loss_sim: 0.635  loss_mse: 0.089  loss_triplet: 0.073  time: 0.8510  data_time: 0.0021  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:02:28] fastreid.utils.events INFO: eta: 6:57:54  iter: 16999  total_loss: 16.348  loss_greedy: 0.060  loss_cls: 3.153  loss_distill: 11.863  loss_distill_2: 0.345  loss_crd: 0.246  loss_sim: 0.602  loss_mse: 0.089  loss_triplet: 0.056  time: 0.8511  data_time: 0.0020  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:05:20] fastreid.utils.events INFO: eta: 6:54:32  iter: 17199  total_loss: 16.324  loss_greedy: 0.060  loss_cls: 3.129  loss_distill: 11.921  loss_distill_2: 0.310  loss_crd: 0.237  loss_sim: 0.626  loss_mse: 0.089  loss_triplet: 0.118  time: 0.8511  data_time: 0.0020  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:08:10] fastreid.utils.events INFO: eta: 6:50:50  iter: 17399  total_loss: 15.444  loss_greedy: 0.059  loss_cls: 2.951  loss_distill: 11.292  loss_distill_2: 0.230  loss_crd: 0.235  loss_sim: 0.604  loss_mse: 0.085  loss_triplet: 0.020  time: 0.8511  data_time: 0.0016  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:11:01] fastreid.utils.events INFO: eta: 6:47:41  iter: 17599  total_loss: 16.237  loss_greedy: 0.059  loss_cls: 3.042  loss_distill: 11.664  loss_distill_2: 0.281  loss_crd: 0.233  loss_sim: 0.622  loss_mse: 0.088  loss_triplet: 0.043  time: 0.8512  data_time: 0.0020  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:13:53] fastreid.utils.events INFO: eta: 6:45:06  iter: 17799  total_loss: 16.092  loss_greedy: 0.060  loss_cls: 3.045  loss_distill: 11.623  loss_distill_2: 0.295  loss_crd: 0.228  loss_sim: 0.620  loss_mse: 0.088  loss_triplet: 0.051  time: 0.8513  data_time: 0.0013  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:16:44] fastreid.utils.events INFO: eta: 6:41:53  iter: 17999  total_loss: 16.382  loss_greedy: 0.060  loss_cls: 3.049  loss_distill: 11.774  loss_distill_2: 0.298  loss_crd: 0.231  loss_sim: 0.601  loss_mse: 0.089  loss_triplet: 0.092  time: 0.8513  data_time: 0.0022  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:19:34] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 14:19:34] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 14:19:34] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 14:19:39] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1082 s / batch. ETA=0:00:51
+[06/10 14:20:10] fastreid.evaluation.evaluator INFO: Inference done 73/156. 0.1281 s / batch. ETA=0:00:39
+[06/10 14:20:40] fastreid.evaluation.evaluator INFO: Inference done 135/156. 0.1297 s / batch. ETA=0:00:10
+[06/10 14:20:50] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:12.389962 (0.479404 s / batch per device)
+[06/10 14:20:50] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.130490 s / batch per device)
+[06/10 14:20:56] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.36%   | 95.24%   | 96.41%    | 79.39% | 45.33% |[0m
+[06/10 14:20:56] fastreid.utils.events INFO: eta: 6:38:51  iter: 18199  total_loss: 16.062  loss_greedy: 0.060  loss_cls: 3.084  loss_distill: 11.582  loss_distill_2: 0.296  loss_crd: 0.229  loss_sim: 0.604  loss_mse: 0.087  loss_triplet: 0.066  time: 0.8513  data_time: 0.0015  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:23:46] fastreid.utils.events INFO: eta: 6:36:03  iter: 18399  total_loss: 16.412  loss_greedy: 0.060  loss_cls: 3.088  loss_distill: 11.815  loss_distill_2: 0.311  loss_crd: 0.243  loss_sim: 0.626  loss_mse: 0.089  loss_triplet: 0.090  time: 0.8513  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:26:38] fastreid.utils.events INFO: eta: 6:33:33  iter: 18599  total_loss: 16.457  loss_greedy: 0.060  loss_cls: 3.132  loss_distill: 11.805  loss_distill_2: 0.359  loss_crd: 0.231  loss_sim: 0.610  loss_mse: 0.089  loss_triplet: 0.071  time: 0.8513  data_time: 0.0030  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:29:30] fastreid.utils.events INFO: eta: 6:30:39  iter: 18799  total_loss: 16.315  loss_greedy: 0.060  loss_cls: 3.080  loss_distill: 11.715  loss_distill_2: 0.308  loss_crd: 0.237  loss_sim: 0.617  loss_mse: 0.088  loss_triplet: 0.131  time: 0.8515  data_time: 0.0034  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:32:23] fastreid.utils.events INFO: eta: 6:28:29  iter: 18999  total_loss: 16.128  loss_greedy: 0.060  loss_cls: 3.080  loss_distill: 11.688  loss_distill_2: 0.306  loss_crd: 0.228  loss_sim: 0.591  loss_mse: 0.088  loss_triplet: 0.044  time: 0.8516  data_time: 0.0030  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:35:18] fastreid.utils.events INFO: eta: 6:26:52  iter: 19199  total_loss: 15.925  loss_greedy: 0.059  loss_cls: 2.991  loss_distill: 11.437  loss_distill_2: 0.268  loss_crd: 0.238  loss_sim: 0.612  loss_mse: 0.086  loss_triplet: 0.032  time: 0.8518  data_time: 0.0035  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:38:10] fastreid.utils.events INFO: eta: 6:25:08  iter: 19399  total_loss: 15.783  loss_greedy: 0.059  loss_cls: 3.014  loss_distill: 11.440  loss_distill_2: 0.273  loss_crd: 0.221  loss_sim: 0.585  loss_mse: 0.086  loss_triplet: 0.021  time: 0.8519  data_time: 0.0027  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:41:02] fastreid.utils.events INFO: eta: 6:22:42  iter: 19599  total_loss: 16.104  loss_greedy: 0.060  loss_cls: 3.075  loss_distill: 11.580  loss_distill_2: 0.313  loss_crd: 0.222  loss_sim: 0.604  loss_mse: 0.087  loss_triplet: 0.078  time: 0.8520  data_time: 0.0027  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:43:55] fastreid.utils.events INFO: eta: 6:20:38  iter: 19799  total_loss: 15.973  loss_greedy: 0.059  loss_cls: 3.083  loss_distill: 11.559  loss_distill_2: 0.304  loss_crd: 0.217  loss_sim: 0.603  loss_mse: 0.087  loss_triplet: 0.036  time: 0.8521  data_time: 0.0030  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:46:47] fastreid.utils.events INFO: eta: 6:17:06  iter: 19999  total_loss: 16.026  loss_greedy: 0.060  loss_cls: 3.035  loss_distill: 11.651  loss_distill_2: 0.283  loss_crd: 0.234  loss_sim: 0.627  loss_mse: 0.088  loss_triplet: 0.041  time: 0.8522  data_time: 0.0031  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:49:39] fastreid.utils.events INFO: eta: 6:12:41  iter: 20199  total_loss: 16.368  loss_greedy: 0.060  loss_cls: 3.080  loss_distill: 11.690  loss_distill_2: 0.306  loss_crd: 0.226  loss_sim: 0.626  loss_mse: 0.088  loss_triplet: 0.090  time: 0.8522  data_time: 0.0034  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:52:31] fastreid.utils.events INFO: eta: 6:10:20  iter: 20399  total_loss: 16.178  loss_greedy: 0.061  loss_cls: 3.135  loss_distill: 11.654  loss_distill_2: 0.360  loss_crd: 0.234  loss_sim: 0.585  loss_mse: 0.088  loss_triplet: 0.095  time: 0.8523  data_time: 0.0036  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:55:23] fastreid.utils.events INFO: eta: 6:07:01  iter: 20599  total_loss: 16.030  loss_greedy: 0.060  loss_cls: 3.047  loss_distill: 11.597  loss_distill_2: 0.266  loss_crd: 0.223  loss_sim: 0.620  loss_mse: 0.087  loss_triplet: 0.024  time: 0.8524  data_time: 0.0027  lr: 3.50e-05  max_mem: 17180M
+[06/10 14:58:16] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 14:58:16] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 14:58:16] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 14:58:21] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1077 s / batch. ETA=0:00:47
+[06/10 14:58:51] fastreid.evaluation.evaluator INFO: Inference done 81/156. 0.1301 s / batch. ETA=0:00:31
+[06/10 14:59:21] fastreid.evaluation.evaluator INFO: Inference done 152/156. 0.1299 s / batch. ETA=0:00:01
+[06/10 14:59:23] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:04.601786 (0.427826 s / batch per device)
+[06/10 14:59:23] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.130239 s / batch per device)
+[06/10 14:59:30] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.32%   | 95.02%   | 96.50%    | 79.09% | 44.75% |[0m
+[06/10 14:59:30] fastreid.utils.events INFO: eta: 6:03:50  iter: 20799  total_loss: 15.966  loss_greedy: 0.060  loss_cls: 3.015  loss_distill: 11.579  loss_distill_2: 0.296  loss_crd: 0.231  loss_sim: 0.635  loss_mse: 0.087  loss_triplet: 0.132  time: 0.8525  data_time: 0.0032  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:02:21] fastreid.utils.events INFO: eta: 6:00:38  iter: 20999  total_loss: 15.544  loss_greedy: 0.060  loss_cls: 2.936  loss_distill: 11.339  loss_distill_2: 0.216  loss_crd: 0.225  loss_sim: 0.617  loss_mse: 0.085  loss_triplet: 0.052  time: 0.8525  data_time: 0.0028  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:05:13] fastreid.utils.events INFO: eta: 5:57:42  iter: 21199  total_loss: 15.942  loss_greedy: 0.060  loss_cls: 3.026  loss_distill: 11.436  loss_distill_2: 0.306  loss_crd: 0.223  loss_sim: 0.623  loss_mse: 0.086  loss_triplet: 0.127  time: 0.8526  data_time: 0.0027  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:08:05] fastreid.utils.events INFO: eta: 5:54:50  iter: 21399  total_loss: 15.736  loss_greedy: 0.061  loss_cls: 3.028  loss_distill: 11.400  loss_distill_2: 0.289  loss_crd: 0.221  loss_sim: 0.592  loss_mse: 0.086  loss_triplet: 0.070  time: 0.8527  data_time: 0.0025  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:10:58] fastreid.utils.events INFO: eta: 5:52:31  iter: 21599  total_loss: 16.168  loss_greedy: 0.060  loss_cls: 3.062  loss_distill: 11.562  loss_distill_2: 0.309  loss_crd: 0.228  loss_sim: 0.625  loss_mse: 0.087  loss_triplet: 0.038  time: 0.8527  data_time: 0.0024  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:13:51] fastreid.utils.events INFO: eta: 5:50:13  iter: 21799  total_loss: 15.810  loss_greedy: 0.060  loss_cls: 3.051  loss_distill: 11.497  loss_distill_2: 0.299  loss_crd: 0.216  loss_sim: 0.593  loss_mse: 0.087  loss_triplet: 0.095  time: 0.8529  data_time: 0.0026  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:16:44] fastreid.utils.events INFO: eta: 5:47:41  iter: 21999  total_loss: 16.166  loss_greedy: 0.059  loss_cls: 3.085  loss_distill: 11.441  loss_distill_2: 0.330  loss_crd: 0.217  loss_sim: 0.604  loss_mse: 0.086  loss_triplet: 0.072  time: 0.8530  data_time: 0.0031  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:22:03] fastreid.utils.events INFO: eta: 5:38:12  iter: 22399  total_loss: 16.106  loss_greedy: 0.061  loss_cls: 3.081  loss_distill: 11.671  loss_distill_2: 0.313  loss_crd: 0.222  loss_sim: 0.622  loss_mse: 0.088  loss_triplet: 0.056  time: 0.8520  data_time: 0.0016  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:24:44] fastreid.utils.events INFO: eta: 5:32:54  iter: 22599  total_loss: 15.536  loss_greedy: 0.060  loss_cls: 2.977  loss_distill: 11.183  loss_distill_2: 0.254  loss_crd: 0.221  loss_sim: 0.594  loss_mse: 0.084  loss_triplet: 0.026  time: 0.8515  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:27:24] fastreid.utils.events INFO: eta: 5:19:41  iter: 22799  total_loss: 15.907  loss_greedy: 0.059  loss_cls: 3.072  loss_distill: 11.442  loss_distill_2: 0.335  loss_crd: 0.221  loss_sim: 0.618  loss_mse: 0.086  loss_triplet: 0.038  time: 0.8511  data_time: 0.0019  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:30:02] fastreid.utils.events INFO: eta: 5:08:57  iter: 22999  total_loss: 15.729  loss_greedy: 0.061  loss_cls: 2.986  loss_distill: 11.502  loss_distill_2: 0.252  loss_crd: 0.221  loss_sim: 0.612  loss_mse: 0.086  loss_triplet: 0.026  time: 0.8505  data_time: 0.0017  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:32:37] fastreid.utils.events INFO: eta: 5:03:25  iter: 23199  total_loss: 16.212  loss_greedy: 0.061  loss_cls: 3.041  loss_distill: 11.697  loss_distill_2: 0.299  loss_crd: 0.224  loss_sim: 0.621  loss_mse: 0.088  loss_triplet: 0.087  time: 0.8499  data_time: 0.0014  lr: 3.50e-05  max_mem: 17180M
+[06/10 15:35:14] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 15:35:14] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 15:35:14] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 15:35:18] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1076 s / batch. ETA=0:00:42
+[06/10 15:35:48] fastreid.evaluation.evaluator INFO: Inference done 90/156. 0.1273 s / batch. ETA=0:00:24
+[06/10 15:36:14] fastreid.evaluation.evaluator INFO: Total inference time: 0:00:56.969886 (0.377284 s / batch per device)
+[06/10 15:36:14] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.128258 s / batch per device)
+[06/10 15:36:20] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.27%   | 95.06%   | 96.36%    | 79.30% | 45.42% |[0m
+[06/10 15:36:20] fastreid.utils.events INFO: eta: 5:01:07  iter: 23399  total_loss: 15.804  loss_greedy: 0.060  loss_cls: 3.001  loss_distill: 11.478  loss_distill_2: 0.265  loss_crd: 0.211  loss_sim: 0.615  loss_mse: 0.086  loss_triplet: 0.056  time: 0.8493  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:38:56] fastreid.utils.events INFO: eta: 4:56:33  iter: 23599  total_loss: 15.813  loss_greedy: 0.061  loss_cls: 3.049  loss_distill: 11.451  loss_distill_2: 0.292  loss_crd: 0.210  loss_sim: 0.588  loss_mse: 0.086  loss_triplet: 0.029  time: 0.8488  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:41:31] fastreid.utils.events INFO: eta: 4:51:56  iter: 23799  total_loss: 15.731  loss_greedy: 0.060  loss_cls: 3.047  loss_distill: 11.360  loss_distill_2: 0.285  loss_crd: 0.211  loss_sim: 0.573  loss_mse: 0.085  loss_triplet: 0.070  time: 0.8482  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:44:09] fastreid.utils.events INFO: eta: 4:49:24  iter: 23999  total_loss: 15.852  loss_greedy: 0.061  loss_cls: 3.050  loss_distill: 11.409  loss_distill_2: 0.287  loss_crd: 0.213  loss_sim: 0.609  loss_mse: 0.086  loss_triplet: 0.026  time: 0.8476  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:46:46] fastreid.utils.events INFO: eta: 4:47:52  iter: 24199  total_loss: 15.890  loss_greedy: 0.060  loss_cls: 3.036  loss_distill: 11.508  loss_distill_2: 0.284  loss_crd: 0.210  loss_sim: 0.603  loss_mse: 0.087  loss_triplet: 0.042  time: 0.8471  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:49:23] fastreid.utils.events INFO: eta: 4:45:05  iter: 24399  total_loss: 15.502  loss_greedy: 0.059  loss_cls: 2.958  loss_distill: 11.092  loss_distill_2: 0.245  loss_crd: 0.215  loss_sim: 0.611  loss_mse: 0.084  loss_triplet: 0.050  time: 0.8466  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:52:01] fastreid.utils.events INFO: eta: 4:42:45  iter: 24599  total_loss: 15.649  loss_greedy: 0.060  loss_cls: 2.969  loss_distill: 11.334  loss_distill_2: 0.255  loss_crd: 0.205  loss_sim: 0.603  loss_mse: 0.085  loss_triplet: 0.049  time: 0.8461  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:54:37] fastreid.utils.events INFO: eta: 4:41:09  iter: 24799  total_loss: 15.893  loss_greedy: 0.060  loss_cls: 3.026  loss_distill: 11.431  loss_distill_2: 0.302  loss_crd: 0.219  loss_sim: 0.623  loss_mse: 0.086  loss_triplet: 0.062  time: 0.8456  data_time: 0.0014  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:57:14] fastreid.utils.events INFO: eta: 4:38:36  iter: 24999  total_loss: 15.875  loss_greedy: 0.061  loss_cls: 3.038  loss_distill: 11.447  loss_distill_2: 0.272  loss_crd: 0.209  loss_sim: 0.608  loss_mse: 0.086  loss_triplet: 0.057  time: 0.8451  data_time: 0.0013  lr: 3.50e-06  max_mem: 17180M
+[06/10 15:59:54] fastreid.utils.events INFO: eta: 4:36:29  iter: 25199  total_loss: 15.875  loss_greedy: 0.060  loss_cls: 3.019  loss_distill: 11.401  loss_distill_2: 0.265  loss_crd: 0.215  loss_sim: 0.611  loss_mse: 0.086  loss_triplet: 0.074  time: 0.8448  data_time: 0.0017  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:02:30] fastreid.utils.events INFO: eta: 4:33:52  iter: 25399  total_loss: 15.760  loss_greedy: 0.060  loss_cls: 3.036  loss_distill: 11.422  loss_distill_2: 0.297  loss_crd: 0.212  loss_sim: 0.611  loss_mse: 0.086  loss_triplet: 0.027  time: 0.8443  data_time: 0.0012  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:05:09] fastreid.utils.events INFO: eta: 4:31:40  iter: 25599  total_loss: 15.868  loss_greedy: 0.060  loss_cls: 3.017  loss_distill: 11.432  loss_distill_2: 0.277  loss_crd: 0.212  loss_sim: 0.619  loss_mse: 0.086  loss_triplet: 0.099  time: 0.8439  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:07:49] fastreid.utils.events INFO: eta: 4:30:15  iter: 25799  total_loss: 15.864  loss_greedy: 0.060  loss_cls: 3.063  loss_distill: 11.368  loss_distill_2: 0.311  loss_crd: 0.203  loss_sim: 0.593  loss_mse: 0.086  loss_triplet: 0.051  time: 0.8435  data_time: 0.0017  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:10:28] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 16:10:29] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 16:10:29] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 16:10:32] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1075 s / batch. ETA=0:00:39
+[06/10 16:11:03] fastreid.evaluation.evaluator INFO: Inference done 91/156. 0.1273 s / batch. ETA=0:00:24
+[06/10 16:11:27] fastreid.evaluation.evaluator INFO: Total inference time: 0:00:56.662135 (0.375246 s / batch per device)
+[06/10 16:11:27] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.128255 s / batch per device)
+[06/10 16:11:33] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.18%   | 95.29%   | 96.27%    | 79.44% | 45.73% |[0m
+[06/10 16:11:33] fastreid.utils.events INFO: eta: 4:28:28  iter: 25999  total_loss: 15.894  loss_greedy: 0.062  loss_cls: 3.009  loss_distill: 11.403  loss_distill_2: 0.274  loss_crd: 0.214  loss_sim: 0.599  loss_mse: 0.086  loss_triplet: 0.053  time: 0.8432  data_time: 0.0018  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:14:12] fastreid.utils.events INFO: eta: 4:25:19  iter: 26199  total_loss: 15.398  loss_greedy: 0.060  loss_cls: 2.951  loss_distill: 11.192  loss_distill_2: 0.247  loss_crd: 0.213  loss_sim: 0.613  loss_mse: 0.084  loss_triplet: 0.084  time: 0.8428  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:16:50] fastreid.utils.events INFO: eta: 4:22:39  iter: 26399  total_loss: 15.787  loss_greedy: 0.061  loss_cls: 3.002  loss_distill: 11.392  loss_distill_2: 0.285  loss_crd: 0.215  loss_sim: 0.632  loss_mse: 0.086  loss_triplet: 0.029  time: 0.8424  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:19:41] fastreid.utils.events INFO: eta: 4:23:16  iter: 26599  total_loss: 15.651  loss_greedy: 0.060  loss_cls: 2.988  loss_distill: 11.328  loss_distill_2: 0.263  loss_crd: 0.207  loss_sim: 0.607  loss_mse: 0.085  loss_triplet: 0.014  time: 0.8425  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:22:34] fastreid.utils.events INFO: eta: 4:27:21  iter: 26799  total_loss: 15.269  loss_greedy: 0.060  loss_cls: 2.987  loss_distill: 11.090  loss_distill_2: 0.237  loss_crd: 0.202  loss_sim: 0.581  loss_mse: 0.084  loss_triplet: 0.034  time: 0.8427  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:25:29] fastreid.utils.events INFO: eta: 4:33:25  iter: 26999  total_loss: 15.519  loss_greedy: 0.060  loss_cls: 2.994  loss_distill: 11.262  loss_distill_2: 0.254  loss_crd: 0.211  loss_sim: 0.611  loss_mse: 0.085  loss_triplet: 0.031  time: 0.8429  data_time: 0.0017  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:28:23] fastreid.utils.events INFO: eta: 4:33:28  iter: 27199  total_loss: 15.810  loss_greedy: 0.061  loss_cls: 3.043  loss_distill: 11.410  loss_distill_2: 0.309  loss_crd: 0.214  loss_sim: 0.603  loss_mse: 0.086  loss_triplet: 0.034  time: 0.8431  data_time: 0.0015  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:31:16] fastreid.utils.events INFO: eta: 4:32:23  iter: 27399  total_loss: 16.177  loss_greedy: 0.061  loss_cls: 3.059  loss_distill: 11.520  loss_distill_2: 0.314  loss_crd: 0.219  loss_sim: 0.618  loss_mse: 0.086  loss_triplet: 0.106  time: 0.8432  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:34:09] fastreid.utils.events INFO: eta: 4:29:35  iter: 27599  total_loss: 15.681  loss_greedy: 0.061  loss_cls: 3.034  loss_distill: 11.333  loss_distill_2: 0.277  loss_crd: 0.211  loss_sim: 0.598  loss_mse: 0.085  loss_triplet: 0.049  time: 0.8434  data_time: 0.0016  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:37:03] fastreid.utils.events INFO: eta: 4:26:59  iter: 27799  total_loss: 15.516  loss_greedy: 0.060  loss_cls: 2.979  loss_distill: 11.252  loss_distill_2: 0.273  loss_crd: 0.209  loss_sim: 0.606  loss_mse: 0.085  loss_triplet: 0.093  time: 0.8436  data_time: 0.0021  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:39:56] fastreid.utils.events INFO: eta: 4:23:43  iter: 27999  total_loss: 15.667  loss_greedy: 0.060  loss_cls: 3.004  loss_distill: 11.269  loss_distill_2: 0.277  loss_crd: 0.203  loss_sim: 0.613  loss_mse: 0.085  loss_triplet: 0.048  time: 0.8437  data_time: 0.0018  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:42:49] fastreid.utils.events INFO: eta: 4:20:44  iter: 28199  total_loss: 15.633  loss_greedy: 0.061  loss_cls: 2.996  loss_distill: 11.170  loss_distill_2: 0.284  loss_crd: 0.205  loss_sim: 0.587  loss_mse: 0.084  loss_triplet: 0.042  time: 0.8439  data_time: 0.0014  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:45:44] fastreid.utils.events INFO: eta: 4:18:22  iter: 28399  total_loss: 15.820  loss_greedy: 0.060  loss_cls: 3.049  loss_distill: 11.304  loss_distill_2: 0.312  loss_crd: 0.212  loss_sim: 0.592  loss_mse: 0.085  loss_triplet: 0.075  time: 0.8441  data_time: 0.0026  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:48:38] fastreid.engine.defaults INFO: Prepare testing set
+[06/10 16:48:38] fastreid.data.datasets.bases INFO: => Loaded DukeMTMC in csv format: 
+[36m| subset   | # ids   | # images   | # cameras   |
+|:---------|:--------|:-----------|:------------|
+| query    | 702     | 2228       | 8           |
+| gallery  | 1110    | 17661      | 8           |[0m
+[06/10 16:48:38] fastreid.evaluation.evaluator INFO: Start inference on 19889 images
+[06/10 16:48:44] fastreid.evaluation.evaluator INFO: Inference done 11/156. 0.1083 s / batch. ETA=0:00:52
+[06/10 16:49:14] fastreid.evaluation.evaluator INFO: Inference done 71/156. 0.1277 s / batch. ETA=0:00:41
+[06/10 16:49:44] fastreid.evaluation.evaluator INFO: Inference done 132/156. 0.1285 s / batch. ETA=0:00:11
+[06/10 16:49:56] fastreid.evaluation.evaluator INFO: Total inference time: 0:01:14.680490 (0.494573 s / batch per device)
+[06/10 16:49:56] fastreid.evaluation.evaluator INFO: Total inference pure compute time: 0:00:19 (0.129382 s / batch per device)
+[06/10 16:50:02] fastreid.evaluation.testing INFO: Evaluation results in csv format: 
+[36m| Datasets   | Rank-1   | Rank-5   | Rank-10   | mAP    | mINP   |
+|:-----------|:---------|:---------|:----------|:-------|:-------|
+| DukeMTMC   | 89.18%   | 95.33%   | 96.23%    | 79.53% | 45.91% |[0m
+[06/10 16:50:02] fastreid.utils.events INFO: eta: 4:16:02  iter: 28599  total_loss: 15.606  loss_greedy: 0.062  loss_cls: 2.980  loss_distill: 11.346  loss_distill_2: 0.241  loss_crd: 0.205  loss_sim: 0.586  loss_mse: 0.085  loss_triplet: 0.041  time: 0.8443  data_time: 0.0014  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:52:57] fastreid.utils.events INFO: eta: 4:13:24  iter: 28799  total_loss: 15.655  loss_greedy: 0.061  loss_cls: 3.040  loss_distill: 11.356  loss_distill_2: 0.292  loss_crd: 0.210  loss_sim: 0.584  loss_mse: 0.086  loss_triplet: 0.056  time: 0.8444  data_time: 0.0021  lr: 3.50e-06  max_mem: 17180M
+[06/10 16:55:50] fastreid.utils.events INFO: eta: 4:10:20  iter: 28999  total_loss: 15.837  loss_greedy: 0.061  loss_cls: 3.016  loss_distill: 11.444  loss_distill_2: 0.284  loss_crd: 0.214  loss_sim: 0.602  loss_mse: 0.086  loss_triplet: 0.097  time: 0.8446  data_time: 0.0017  lr: 3.50e-06  max_mem: 17180M

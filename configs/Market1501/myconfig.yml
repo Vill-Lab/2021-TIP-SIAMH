@@ -1,0 +1,11 @@
+_BASE_: "../myconfigs.yml"
+
+MODEL:
+  BACKBONE:
+    NAME: "build_resnet_backbone"
+
+DATASETS:
+  NAMES: ("Market1501",)
+  TESTS: ("Market1501",)
+
+OUTPUT_DIR: "logs/market1501/sbs_S50"

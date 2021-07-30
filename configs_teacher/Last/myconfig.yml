@@ -1,0 +1,12 @@
+_BASE_: "../myconfigs.yml"
+
+MODEL:
+  BACKBONE:
+    NAME: "build_resnest_backbone"
+
+  
+DATASETS:
+  NAMES: ("Last",)
+  TESTS: ("Last",)
+
+OUTPUT_DIR: "logs/Last_teacher/sbs_S50"
