@@ -208,8 +208,6 @@ class DefaultTrainer(SimpleTrainer):
         
         model = self.build_model(cfg)
         model_teacher= self.build_model(teacher_cfg)
-        #Checkpointer(model_teacher).load("/mnt/Data/typ/tippaper/distillreid/savemodel/model_market2048.pth")    
-        #Checkpointer(model_teacher).load("/mnt/Data/typ/tippaper/distillreid/savemodel/model_duke32.pth")    
         
         
         optimizer = self.build_optimizer(cfg, model)
