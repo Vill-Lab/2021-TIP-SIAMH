@@ -160,8 +160,8 @@ class Baseline(nn.Module):
         #self distill loss
         loss_dict['loss_sim']=(self.simloss(h_return=b_return_teacher,b_return=b_return))*40
 
-        loss_dict['loss_selfdis']=loss_kd(cls_score_real,pids_distill,newscore.detach())*10
-        loss_dict['loss_trisal']=TripletLoss(self._cfg)(features_new, gt_labels)+CrossEntropyLoss(self._cfg)(newscore, gt_labels)*0.7
+        loss_dict['loss_selfdis']=loss_kd(cls_score_real,pids_distill,newscore.detach())*1
+        loss_dict['loss_trisal']=TripletLoss(self._cfg)(features_new, gt_labels)+CrossEntropyLoss(self._cfg)(newscore, gt_labels)*0.3
 
         loss_dict['loss_mse']=self.mseloss(b_return.float(),b_return_teacher.detach().float())*0.1+self.mseloss(h_return.float(),h_return_teacher.detach().float())*0.1
 
