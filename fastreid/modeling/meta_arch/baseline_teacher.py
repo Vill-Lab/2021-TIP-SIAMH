@@ -124,7 +124,7 @@ class Baseline_teacher(nn.Module):
         loss_dict['loss_distill']= loss_kd(cls_outputs_hash,gt_labels.long(),cls_outputs_real.detach())*3#+loss_kd(cls_outputs_real,gt_labels.long(),v.detach())*3
         
         pids_distill=gt_labels.long()
-        loss_dict['loss_distill_tea']=loss_kd(cls_outputs_hash,pids_distill,cls_score_hash_s)*0.1
+        loss_dict['loss_distill_tea']=loss_kd(cls_outputs_hash,pids_distill,cls_score_hash_s)*0.5
 
         if "TripletLoss" in loss_names:
             if self.flag:
