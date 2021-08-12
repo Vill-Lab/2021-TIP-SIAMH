@@ -35,8 +35,6 @@ class Baseline_teacher(nn.Module):
         self.prv_h_q=[]
         self.prv_gt_label_q=[]
 
-
-
         self.prv_h=torch.zeros(size=(cfg.SOLVER.IMS_PER_BATCH,128))
         self.prv_b=torch.zeros(size=(cfg.SOLVER.IMS_PER_BATCH,128))
         self.prv_gt_label=torch.zeros(size=(cfg.SOLVER.IMS_PER_BATCH,751))
