@@ -2,7 +2,7 @@
 
 This is the pytorch implementation of the [paper](https://ieeexplore.ieee.org/document/9531552) (accpted by IEEE TIP 2021).
 
-<img src='figures/21_tip_igoas.png'>
+<img src='configs/siamh.png'>
 
 **Fig 1**.SIAMH framework
 
