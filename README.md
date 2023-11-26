@@ -1,6 +1,6 @@
 # Salience-Guided Iterative Asymmetric Mutual Hashing for Fast Person Re-Identification (IEEE TIP 2021) 
 
-This is the pytorch implementation of the [paper](https://ieeexplore.ieee.org/document/9531552) (accpted by IEEE TIP 2021).
+This is the pytorch implementation of the [paper](https://ieeexplore.ieee.org/document/9531552) (accepted by IEEE TIP 2021).
 
 <img src='configs/siamh.png'>
 
